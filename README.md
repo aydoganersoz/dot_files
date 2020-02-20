@@ -1,4 +1,7 @@
-# Original File Names
+# Configuration File Paths
 
-- zshrc_* -> home/$USER/.zshrc
-- terminator_* -> home/$USER/.config/terminator/config
+```bash
+cd dot_files
+cp zshrc $HOME/.zshrc
+cp terminator $HOME/.config/terminator/config
+```

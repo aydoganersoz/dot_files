@@ -1,9 +1,8 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH="$HOME/.cargo/env:$HOME/.cargo/bin:/opt/gcc-arm-none-eabi-7-2018-q2-update/bin:$PATH"
+export PATH=/opt/gcc-arm-none-eabi-7-2018-q2-update/bin:$HOME/.cargo/env:$HOME/.cargo/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/aersoz/.oh-my-zsh"
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -43,7 +42,7 @@ ZSH_THEME="agnoster"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -69,11 +68,11 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-completions)
-
-autoload -U compinit && compinit
+plugins=(git zsh-completions zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
+
+autoload -U compinit && compinit
 
 # User configuration
 
@@ -101,10 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-eval `dircolors ~/.dir_colors/dircolors`
-
 # to remove hostname from the terminal
 prompt_context() {}
-source /home/aersoz/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-HISTIGNORE="env sh /tmp/Microsoft-MIEngine-Cmd*"
+source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
