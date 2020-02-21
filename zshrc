@@ -103,4 +103,4 @@ autoload -U compinit && compinit
 # to remove hostname from the terminal
 prompt_context() {}
 
-source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
