@@ -1,7 +1,4 @@
-# Configuration File Paths
+# Documents
 
-```bash
-cd dot_files
-cp zshrc $HOME/.zshrc
-cp terminator $HOME/.config/terminator/config
-```
+[Ubuntu Tools](ubuntu_tools.md)
+[Ubuntu Configuration](ubuntu_configuration.md)
