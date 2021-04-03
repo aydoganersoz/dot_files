@@ -1,40 +1,22 @@
 # My Ubuntu Setup
 
-## Shell
+## Packages & Apps
 
-### Oh My Zsh
+- Zsh
 
-```http
-https://github.com/ohmyzsh/ohmyzsh#basic-installation
-```
+  - [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation)
 
-### git plugin
+  - [git](https://github.com/ohmyzsh/ohmyzsh#enabling-plugins)
 
-```http
-https://github.com/ohmyzsh/ohmyzsh#enabling-plugins
-```
+  - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
 
-### zsh-autosuggestions plugin
+  - [zsh-completions](https://github.com/zsh-users/zsh-completions#oh-my-zsh)
 
-```http
-https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
-```
-
-### zsh-completions  plugin
-
-```http
-https://github.com/zsh-users/zsh-completions#oh-my-zsh
-```
-
-### zsh-syntax-highlighting plugin
-
-```http
-https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh
-```
-
-## Ubuntu Packages & Apps
+  - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
 
 - Terminator
+
+- Visual Studio Code
 
 - GParted
 
@@ -42,18 +24,26 @@ https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-m
 
 - Tree
 
-## Mozilla Firefox Extensions
+- Spotify
 
-- Decentraleyes
+- Steam
 
-- DuckDuckGo Privacy Essentials
+- KeePassX
 
-- HTTPS Everywhere
+- Anki
 
-- Privacy Badger
+- Mozilla Firefox
 
-- uBlock Origin
+  - Decentraleyes
 
-- Side View
+  - DuckDuckGo Privacy Essentials
 
-- MuteLinks
+  - HTTPS Everywhere
+
+  - Privacy Badger
+
+  - uBlock Origin
+
+  - Side View
+
+  - MuteLinks
