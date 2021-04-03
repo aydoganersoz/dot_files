@@ -30,12 +30,30 @@ https://github.com/zsh-users/zsh-completions#oh-my-zsh
 
 ```http
 https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh
-  ```
+```
 
-## Terminator
+## Ubuntu Packages & Apps
 
-## GParted
+- Terminator
 
-## Synaptic
+- GParted
 
-## Tree
+- Synaptic
+
+- Tree
+
+## Mozilla Firefox Extensions
+
+- Decentraleyes
+
+- DuckDuckGo Privacy Essentials
+
+- HTTPS Everywhere
+
+- Privacy Badger
+
+- uBlock Origin
+
+- Side View
+
+- MuteLinks
